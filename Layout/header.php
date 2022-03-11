@@ -6,7 +6,7 @@
             <i class="fas fa-phone text-white ms-3 me-2"></i>+95 9742110221, 01 211 4321
         </span>
         <span>
-            <a href="#" class="fab fa-facebook border-end mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
+            <a href="#" class="fa-brands fa-facebook border-end mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
             <a href="#" class="fab fa-twitter border-end mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
             <a href="#" class="fab fa-youtube border-end mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
             <a href="#" class="fab fa-viber mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
