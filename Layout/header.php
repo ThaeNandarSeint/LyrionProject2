@@ -3,7 +3,8 @@
     <div class="container d-flex flex-wrap justify-content-between">
         <span class="text-white">
             <i class="fas fa-envelope text-white me-2"></i>info@educaremm.com
-            <i class="fas fa-phone text-white ms-3 me-2"></i>+95 9742110221, 01 211 4321
+            <i class="fas fa-phone text-white ms-3 me-2"></i>+95 9742110221
+            <!-- <i class="fa-solid fa-phone-rotary text-white"></i> 01 211 4321 -->
         </span>
         <span>
             <a href="#" class="fa-brands fa-facebook border-end mx-1 px-2 text-light text-decoration-none" aria-hidden="true"></a>
@@ -27,20 +28,20 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="index.php#about">About us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Courses
                         </a>
                         <ul class="dropdown-menu gradient-color" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="primary.php">Primary</a></li>
+                            <li><a class="dropdown-item" href="index.php#courses">Summer</a></li>
+                            <li><a class="dropdown-item" href="secondary.php">Secondary</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Activities</a>
+                        <a class="nav-link" href="index.php#activities">Activities</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>

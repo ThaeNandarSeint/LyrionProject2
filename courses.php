@@ -5,19 +5,19 @@
         <h1 style="color: #bb6803;">Categories</h1>
     </div>
     <div class="d-flex justify-content-around w-100 mt-4">
-        <div class="box text-center p-4 category" style="background-color: #bb6803;">
+        <div class="box text-center p-4 category" style="background-color: #bb6803;" id="courses">
             <img class="title category-logo" src="assets/images/graduation-hat.png" alt="">
             <h2>Primary Education</h2>
             <h5>10 courses</h5>
             <a class="title btn btn-sm rounded-pill" href="primary.php" style="background-color: #f7ba70; width: 60%;">View Details</a>
         </div>
-        <div class="box bg-info text-center p-4 category">
+        <div class="box bg-info text-center p-4 category" id="courses">
             <img class="title category-logo" src="assets/images/star.png" alt="">
             <h2>Summer Program</h2>
             <h5>10 courses</h5>
-            <a class="title btn btn-sm btn-primary rounded-pill" href="primary.php" style="width: 60%;">View Details</a>
+            <a class="title btn btn-sm btn-primary rounded-pill" href="#" style="width: 60%;">View Details</a>
         </div>
-        <div class="box text-center p-4 category" style="background-color: #bb6803;">
+        <div class="box text-center p-4 category" style="background-color: #bb6803;" id="courses">
             <img class="title category-logo" src="assets/images/campus.png" alt="">
             <h2>Secondary Education</h2>
             <h5>10 courses</h5>

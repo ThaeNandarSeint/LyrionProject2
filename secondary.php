@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Secondary Education</title>
     <link rel="stylesheet" href="css/swiper.bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/primary.css">
+    <link rel="stylesheet" href="css/slide.css">
     <style>
         .englishS{
             width: 320px;
@@ -349,11 +349,10 @@
 
     <?php include "Layout/footer.php" ?>
 
-    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     <script src="js/swiper.bundle.min.js"></script>
-    <!-- <script src="js/primary.js"></script> -->
+
     <script>
-        var swiper2 = new Swiper(".mySwiper1", {
+        var swiper1 = new Swiper(".mySwiper1", {
             slidesPerView: 3,
             spaceBetween: 30,
             pagination: {
@@ -362,7 +361,7 @@
             },
         });
 
-        var swiper1 = new Swiper(".mySwiper2", {
+        var swiper2 = new Swiper(".mySwiper2", {
             effect: "coverflow",
             grabCursor: true,
             centeredSlides: true,
@@ -381,6 +380,10 @@
             },
         });
     </script>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/primary.js"></script>
     <script src="js/up.js"></script>
 </body>
 
