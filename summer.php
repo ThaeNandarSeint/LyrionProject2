@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secondary Education</title>
+    <title>Summer Program</title>
     <link rel="stylesheet" href="css/swiper.bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/slide.css">
     <style>
-        .englishS{
+        .englishP{
             width: 320px;
             height: 350px;
         }
-        .englishS img{
+        .englishP img{
             width: 320px;
             height: 250px;
             object-fit: cover;
         }
-        .mathS{
+        .mathP{
             width: 350px;
             height: 300px;
         }
-        .mathS img{
+        .mathP img{
             width: 350px;
             height: 200px;
         }
@@ -34,17 +34,18 @@
 
 <body>
     <?php include "Layout/header.php" ?>
-    <!-- math -->
-    <div class="container mt-5" id="secondary">
-        <h1 class="text-center text-info">Jump to <span style="color: #bb6803;">Mathematics</span></h1>
-        <div class="text-center">These lessons help you brush up on important <span class="text-primary">math topics</span> and prepare you to dive into <span class="text-danger">skill practice</span>!</div>
+
+    <!-- Personal Development Courses -->
+    <div class="container mt-5" id="summer">
+        <h1 class="text-center text-info">Develop Your <span style="color: #bb6803;">Capabilities</span></h1>
+        <div class="text-center"><span class="text-primary">Winners never Quit</span> and <span class="text-danger">Quitters never Win</span>!</div>
         <div class="swiper mySwiper1">
             <div class="swiper-wrapper mb-3">
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/function_secondary.gif" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/purpose_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Functions and their Families</h5>
+                            <h5 class="card-title pb-1">Discover Your Life Purpose</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -54,10 +55,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/trigo_secondary.jpg" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/positive_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Trigonmetry and their Functions</h5>
+                            <h5 class="card-title pb-1">Certificate in Positive Psychology</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -67,10 +68,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/logarithm_secondary.jpg" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/critical_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Logarithmic Functions</h5>
+                            <h5 class="card-title pb-1">Critical Thinking Strategies</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -80,10 +81,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/limit_secondary.jpg" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/confidence_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Limits and Continuity</h5>
+                            <h5 class="card-title pb-1">Double Your Confidence</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -93,10 +94,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/derivative_secondary.jpg" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/memory_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Derivative Rules and Strategies</h5>
+                            <h5 class="card-title pb-1">How to Boost Your Memory</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -106,10 +107,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/inequation_secondary.png" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/timemanagement_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Equations and Inequations</h5>
+                            <h5 class="card-title pb-1">Time Management</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -119,10 +120,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathS card">
-                        <img src="assets/images/courses/complexnumber_secondary.jpg" class="card-img-top" alt="...">
+                    <div class="mathP card">
+                        <img src="assets/images/courses/stress_summer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Real Numbers and Complex Numbers</h5>
+                            <h5 class="card-title pb-1">Stress Management</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -135,16 +136,17 @@
             <div class="swiper-pagination2"></div>
         </div>
     </div>
-    <!-- English -->
+    
+    <!-- Social -->
     <div class="container-fluid">
-        <h1 class="text-center" style="color: #bb6803;">Learn English as a <span class="text-info">Native Language</span></h1>
-        <div class="text-center">Improve your <span class="text-danger">level</span> and get the <span class="text-primary">score</span> you want!</div>
+        <h1 class="text-center" style="color: #bb6803;">Let's Study the Society <span class="text-info">that You Live in</span></h1>
+        <div class="text-center"><span class="text-danger">Social studies</span> is the most powerful <span class="text-primary">weapon</span> to change the <span class="text-danger">world</span>!</div>
         <div class="row gy-3 mt-4">
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/reading_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/constitution_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Reading Strategies</h5>
+                        <h5 class="card-title text-center pb-1">Government and Constitution</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -154,10 +156,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/writing_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/legal_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Writing Strategies</h5>
+                        <h5 class="card-title text-center pb-1">Legal System and Citizenship</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -167,10 +169,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/listening_secondary.jpeg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/democracy_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Listening Strategies</h5>
+                        <h5 class="card-title text-center pb-1">Democratic Society</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -180,10 +182,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/speaking_secondary.png" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/economy_summer.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Speaking Strategies</h5>
+                        <h5 class="card-title text-center pb-1">Basic Economic Principles</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -193,10 +195,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/grammar_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/bank_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Grammar and Mechanics</h5>
+                        <h5 class="card-title text-center pb-1">Banking and Finance</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -206,10 +208,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/vocabulary_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/supply_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Vocabulary Practice</h5>
+                        <h5 class="card-title text-center pb-1">Supply and Demand</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -219,10 +221,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/ielts_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/religion_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Preparation for IELTS</h5>
+                        <h5 class="card-title text-center pb-1">World Religions</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -232,10 +234,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishS">
-                    <img src="assets/images/courses/toefl_secondary.jpg" class="card-img-top" alt="...">
+                <div class="englishP">
+                    <img src="assets/images/courses/war_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Preparation for TOEFL</h5>
+                        <h5 class="card-title text-center pb-1">The Civil War or Revolution</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -247,16 +249,16 @@
         </div>
     </div>
 
-    <!-- Science -->
+    <!-- Music -->
     <div class="swiper mySwiper2">
-        <h1 class="text-center text-info">Explore your <span style="color: #bb6803;">Scientific Knowledge</span></h1>
-        <div class="text-center">Build your <span class="text-primary">present</span> (and your <span class="text-danger">future</span>) with us!</div>
+        <h1 class="text-center text-info">Grow your <span style="color: #bb6803;">Positive Emotion </span>with Music</h1>
+        <div class="text-center">Without <span class="text-primary">music</span>, life is a <span class="text-danger">journey</span> through a <span class="text-primary">desert</span>!</div>
         <div class="swiper-wrapper mt-5">
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/earthsystem_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/composer_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Earth's Systems</h5>
+                        <h5 class="card-title pb-1">Lyric Writing and Music Composition</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -267,9 +269,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/mechanic_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/dj_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Mechanics and Optics</h5>
+                        <h5 class="card-title pb-1">VirtualDJ and Electronic Music</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -280,9 +282,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/rescources_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/drum_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Conservation and Natural Resources</h5>
+                        <h5 class="card-title pb-1">Learn to play the Drums</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -293,9 +295,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/ecosystem_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/piano_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Adaptations and Ecosystems</h5>
+                        <h5 class="card-title pb-1">Complete Piano Courses & Music Theory</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -306,9 +308,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/electricity_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/guitar_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Electricity and Magnetism</h5>
+                        <h5 class="card-title pb-1">Guitar Chords and Rock Guitar</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -319,9 +321,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/atom_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/musicproduction_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Atoms and Molecules</h5>
+                        <h5 class="card-title pb-1">Music Production and Audio Production</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -332,9 +334,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/astronomy_secondary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/orchestration_summer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Cosmology and Astronomy</h5>
+                        <h5 class="card-title pb-1">Orchestration Masterclass</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -350,8 +352,8 @@
     <?php include "Layout/footer.php" ?>
 
     <script src="js/swiper.bundle.min.js"></script>
-
     <script>
+        // swiper 1
         var swiper1 = new Swiper(".mySwiper1", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -361,6 +363,7 @@
             },
         });
 
+        // swiper 2
         var swiper2 = new Swiper(".mySwiper2", {
             effect: "coverflow",
             grabCursor: true,
@@ -380,7 +383,7 @@
             },
         });
     </script>
-    
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/validation.js"></script>
     <script src="js/primary.js"></script>

@@ -31,13 +31,13 @@
                         <a class="nav-link" href="index.php#about">About us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="index.php#courses" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Courses
                         </a>
                         <ul class="dropdown-menu gradient-color" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="primary.php">Primary</a></li>
-                            <li><a class="dropdown-item" href="index.php#courses">Summer</a></li>
-                            <li><a class="dropdown-item" href="secondary.php">Secondary</a></li>
+                            <li><a class="dropdown-item" href="primary.php#primary">Primary Education</a></li>
+                            <li><a class="dropdown-item" href="summer.php#summer">Summer Programs</a></li>
+                            <li><a class="dropdown-item" href="secondary.php#secondary">Secondary Education</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

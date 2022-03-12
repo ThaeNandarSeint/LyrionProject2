@@ -35,7 +35,7 @@
 <body>
     <?php include "Layout/header.php" ?>
     <!-- math -->
-    <div class="container mt-5" id="math">
+    <div class="container mt-5" id="primary">
         <h1 class="text-center text-info">Jump to <span style="color: #bb6803;">Mathematics</span></h1>
         <div class="text-center">These lessons help you brush up on important <span class="text-primary">math topics</span> and prepare you to dive into <span class="text-danger">skill practice</span>!</div>
         <div class="swiper mySwiper1">
@@ -137,7 +137,7 @@
     </div>
     
     <!-- English -->
-    <div class="container-fluid" id="english">
+    <div class="container-fluid">
         <h1 class="text-center" style="color: #bb6803;">Learn English as a <span class="text-info">Native Language</span></h1>
         <div class="text-center">Improve your <span class="text-danger">level</span> and get the <span class="text-primary">score</span> you want!</div>
         <div class="row gy-3 mt-4">
@@ -249,7 +249,7 @@
     </div>
 
     <!-- Science -->
-    <div class="swiper mySwiper2" id="science">
+    <div class="swiper mySwiper2">
         <h1 class="text-center text-info">Explore your <span style="color: #bb6803;">Scientific Knowledge</span></h1>
         <div class="text-center">Build your <span class="text-primary">present</span> (and your <span class="text-danger">future</span>) with us!</div>
         <div class="swiper-wrapper mt-5">
