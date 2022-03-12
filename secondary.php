@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/primary.css">
     <style>
-        .englishP{
+        .englishS{
             width: 320px;
             height: 350px;
         }
-        .englishP img{
+        .englishS img{
             width: 320px;
             height: 250px;
             object-fit: cover;
         }
-        .mathP{
+        .mathS{
             width: 350px;
             height: 300px;
         }
-        .mathP img{
+        .mathS img{
             width: 350px;
             height: 200px;
         }
@@ -41,10 +41,10 @@
         <div class="swiper mySwiper1">
             <div class="swiper-wrapper mb-3">
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/add_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/function_secondary.gif" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Addition and Subtraction</h5>
+                            <h5 class="card-title pb-1">Functions and their Families</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -54,10 +54,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/multiply_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/trigo_secondary.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Multiplication and Division</h5>
+                            <h5 class="card-title pb-1">Trigonmetry and their Functions</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -67,10 +67,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/fraction_primary.png" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/logarithm_secondary.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Fractions and Decimals</h5>
+                            <h5 class="card-title pb-1">Logarithmic Functions</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -80,10 +80,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/2d_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/limit_secondary.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Dimensional Figures</h5>
+                            <h5 class="card-title pb-1">Limits and Continuity</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -93,10 +93,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/time_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/derivative_secondary.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Time, Money and Percents</h5>
+                            <h5 class="card-title pb-1">Derivative Rules and Strategies</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -106,10 +106,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/geometric_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/inequation_secondary.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Geometric Measurement</h5>
+                            <h5 class="card-title pb-1">Equations and Inequations</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -119,10 +119,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="mathP card">
-                        <img src="assets/images/courses/financial_primary.jpg" class="card-img-top" alt="...">
+                    <div class="mathS card">
+                        <img src="assets/images/courses/complexnumber_secondary.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title pb-1">Financial Literacy</h5>
+                            <h5 class="card-title pb-1">Real Numbers and Complex Numbers</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
                                 <p>2 Hours</p>
                                 <p>6 Months</p>
@@ -135,15 +135,14 @@
             <div class="swiper-pagination2"></div>
         </div>
     </div>
-    
     <!-- English -->
     <div class="container-fluid" id="english">
         <h1 class="text-center" style="color: #bb6803;">Learn English as a <span class="text-info">Native Language</span></h1>
         <div class="text-center">Improve your <span class="text-danger">level</span> and get the <span class="text-primary">score</span> you want!</div>
         <div class="row gy-3 mt-4">
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/reading_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/reading_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Reading Strategies</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -155,8 +154,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/writing_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/writing_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Writing Strategies</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -168,8 +167,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/listening_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/listening_secondary.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Listening Strategies</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -181,8 +180,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/speaking_primary.png" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/speaking_secondary.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Speaking Strategies</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -194,8 +193,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/grammar_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/grammar_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Grammar and Mechanics</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -207,8 +206,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/vocabulary_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/vocabulary_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center pb-1">Vocabulary Practice</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
@@ -220,10 +219,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/flashcards_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/ielts_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Flash Cards for Kids</h5>
+                        <h5 class="card-title text-center pb-1">Preparation for IELTS</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -233,10 +232,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="englishP">
-                    <img src="assets/images/courses/story_primary.jpg" class="card-img-top" alt="...">
+                <div class="englishS">
+                    <img src="assets/images/courses/toefl_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-center pb-1">Learn English with Stories</h5>
+                        <h5 class="card-title text-center pb-1">Preparation for TOEFL</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -255,9 +254,9 @@
         <div class="swiper-wrapper mt-5">
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/watercycle_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/earthsystem_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Water Cycle and Climate Change</h5>
+                        <h5 class="card-title pb-1">Earth's Systems</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -268,9 +267,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/sound_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/mechanic_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Waves and Sound</h5>
+                        <h5 class="card-title pb-1">Mechanics and Optics</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -281,9 +280,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/fossil_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/rescources_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Fossils, Rocks and Minerals</h5>
+                        <h5 class="card-title pb-1">Conservation and Natural Resources</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -294,9 +293,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/measurement_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/ecosystem_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Units and Measurement</h5>
+                        <h5 class="card-title pb-1">Adaptations and Ecosystems</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -307,9 +306,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/matter_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/electricity_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Matters and Solutions</h5>
+                        <h5 class="card-title pb-1">Electricity and Magnetism</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -320,9 +319,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/heat_primary.png" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/atom_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Heat, Density and Pressure</h5>
+                        <h5 class="card-title pb-1">Atoms and Molecules</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>
@@ -333,9 +332,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="card">
-                    <img src="assets/images/courses/plant_primary.jpg" class="card-img-top" alt="...">
+                    <img src="assets/images/courses/astronomy_secondary.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title pb-1">Plants and Animals</h5>
+                        <h5 class="card-title pb-1">Cosmology and Astronomy</h5>
                         <div class="d-flex justify-content-evenly border-top pt-1">
                             <p>2 Hours</p>
                             <p>6 Months</p>

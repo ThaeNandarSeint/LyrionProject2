@@ -22,7 +22,7 @@
         <div class="d-flex flex-wrap justify-content-between">
             <p class="text-muted">Copyright &copy; 2020.All Right Reserved.</p>
             <div>
-                <a href="#" class="fab fa-facebook text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 8px 9px;"></a>
+                <a href="#" class="fab fa-facebook-f text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 8px 9px;"></a>
                 <a href="#" class="fab fa-twitter text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 8px;"></a>
                 <a href="#" class="fab fa-youtube text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 8px 6px;"></a>
                 <!-- <a href="#" class="fab fa-linkedin-square text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 7px 9px;"></a> -->
