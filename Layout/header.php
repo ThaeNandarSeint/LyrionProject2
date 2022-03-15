@@ -47,14 +47,28 @@
                         <a class="nav-link" href="#">Contact us</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Sign In</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="">Sign Up</a>
-                    </li>
-                </ul>
+                <?php if (isset($_SESSION['email']) && $_SESSION['password']) : ?>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                                <b><?= $_SESSION['name'] ?></b>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout.php">Sign out</a>
+                        </li>
+                    </ul>
+                <?php else : ?>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.php">Sign In</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="register.php">Sign Up</a>
+                        </li>
+                    </ul>
+                <?php endif; ?>
             </div>
         </div>
     </nav>
