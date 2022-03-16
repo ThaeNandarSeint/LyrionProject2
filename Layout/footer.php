@@ -16,10 +16,10 @@
         <hr class="bg-secondary">
         <div class="d-flex flex-wrap justify-content-evenly">
             <a href="index.php" class="text-decoration-none">Home</a>
-            <a href="index.php#about" class="text-decoration-none">About us</a>
+            <a href="about_us.php" class="text-decoration-none">About us</a>
             <a href="index.php#courses" class="text-decoration-none">Courses</a>
-            <a href="index.php#activities" class="text-decoration-none">Activities</a>
-            <a href="" class="text-decoration-none">Contact us</a>
+            <a href="activities.php" class="text-decoration-none">Activities</a>
+            <a href="contact_us.php" class="text-decoration-none">Contact us</a>
         </div>
         <hr class="border-bottom border-white">
         <div class="d-flex flex-wrap justify-content-between">

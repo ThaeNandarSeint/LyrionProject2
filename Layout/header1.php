@@ -15,7 +15,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php#about">About us</a>
+                        <a class="nav-link" href="about_us.php">About us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.php#courses" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,10 +28,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php#activities">Activities</a>
+                        <a class="nav-link" href="activities.php">Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" href="contact_us.php">Contact us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -46,4 +46,4 @@
         </div>
     </nav>
 
-    </div>
+   
