@@ -12,20 +12,23 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/slide.css">
     <style>
-        .englishP{
-            width: 320px;
+        .englishP {
+            /* width: 320px; */
             height: 350px;
         }
-        .englishP img{
-            width: 320px;
+
+        .englishP img {
+            /* width: 320px; */
             height: 250px;
             object-fit: cover;
         }
-        .mathP{
+
+        .mathP {
             width: 350px;
             height: 300px;
         }
-        .mathP img{
+
+        .mathP img {
             width: 350px;
             height: 200px;
         }
@@ -136,7 +139,7 @@
             <div class="swiper-pagination2"></div>
         </div>
     </div>
-    
+
     <!-- Social -->
     <div class="container-fluid">
         <h1 class="text-center" style="color: #bb6803;">Let's Study the Society <span class="text-info">that You Live in</span></h1>
@@ -361,6 +364,22 @@
                 el: ".swiper-pagination2",
                 clickable: true,
             },
+            autoplay: {
+                delay: 1000,
+            },
+            loop: true,
+            breakpoints: {
+                // when window width is <= 499px
+                499: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 50
+                },
+                // when window width is <= 999px
+                999: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 50
+                }
+            }
         });
 
         // swiper 2
@@ -380,6 +399,9 @@
             loop: true,
             pagination: {
                 el: ".swiper-pagination1",
+            },
+            autoplay: {
+                delay: 1000,
             },
         });
     </script>

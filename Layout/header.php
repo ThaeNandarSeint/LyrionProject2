@@ -1,6 +1,6 @@
 <!-- navbar & banner -->
 <div class="gradient-color">
-    <div class="container d-flex flex-wrap justify-content-between">
+    <div class="container d-flex flex-wrap justify-content-center justify-content-md-between">
         <span class="text-white">
             <i class="fas fa-envelope text-white me-2"></i>info@educaremm.com
             <i class="fas fa-phone text-white ms-3 me-2"></i>+95 9742110221
@@ -75,8 +75,8 @@
 
     <div class="container">
         <div class="row pb-3">
-            <div class="col-6">
-                <h1 style="font-size: 5rem; color: #F7941D; text-shadow: 2px 2px 5px white;">
+            <div class="col-12 col-md-6">
+                <h1 style="font-size: 3rem; color: #F7941D; text-shadow: 2px 2px 5px white;">
                     Take Time To Learn for Anythings
                 </h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque aliquid eius magni non laboriosam, maxime consequatur et aut quaerat maiores rerum nam eveniet? Vero?</p>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 d-flex align-items-center">
+            <div class="col-12 col-md-5 d-flex align-items-center mt-3">
                 <div class="">
                     <div id="carouselExampleControls" class="carousel slide rounded-pill overflow-hidden" data-bs-ride="carousel">
                         <div class="carousel-inner">

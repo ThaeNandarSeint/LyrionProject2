@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <style>
@@ -69,7 +69,7 @@
     <div class="bg-text">
       <h1 class="ml13">Contact Us</h1>
       <hr>
-      <p><a href="index.php" class="text-decoration-none text-secondary" >Home.</a>EDUCARE Education Center</p>
+      <p>EDUCARE Education Center</p>
     </div>
 </div>
 <!-- Start Contact Us  -->
@@ -127,6 +127,8 @@
   <!-- End Footer  -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/up.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <script>

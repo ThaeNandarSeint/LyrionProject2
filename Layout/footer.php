@@ -1,6 +1,6 @@
 <!-- footer -->
 <div class="bg-light pt-5">
-    <div class="col-6 mx-auto text-center">
+    <div class="col-12 col-md-6 mx-auto text-center">
         <div class="fs-4 fw-bolder">News Letter</div>
         <form class="mt-4 needs-validation" action="" novalidate>
             <div class="d-flex justify-content-center align-items-center">
@@ -22,7 +22,7 @@
             <a href="contact_us.php" class="text-decoration-none">Contact us</a>
         </div>
         <hr class="border-bottom border-white">
-        <div class="d-flex flex-wrap justify-content-between">
+        <div class="d-flex flex-wrap justify-content-between mx-2">
             <p class="text-muted">Copyright &copy; 2020.All Right Reserved.</p>
             <div>
                 <a href="#" class="fab fa-facebook-f text-decoration-none bg-secondary text-white rounded-circle me-1" style="width: 30px; height: 30px; padding: 8px 9px;"></a>

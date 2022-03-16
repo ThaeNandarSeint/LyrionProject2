@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="css/slide.css">
     <style>
         .englishS{
-            width: 320px;
+            /* width: 320px; */
             height: 350px;
         }
         .englishS img{
-            width: 320px;
+            /* width: 320px; */
             height: 250px;
             object-fit: cover;
         }
@@ -26,8 +26,9 @@
             height: 300px;
         }
         .mathS img{
-            width: 350px;
+            width: 100%;
             height: 200px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -46,9 +47,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Functions and their Families</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -59,9 +60,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Trigonmetry and their Functions</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -72,9 +73,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Logarithmic Functions</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -85,9 +86,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Limits and Continuity</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -98,9 +99,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Derivative Rules and Strategies</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -111,9 +112,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Equations and Inequations</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -124,9 +125,9 @@
                         <div class="card-body">
                             <h5 class="card-title pb-1">Real Numbers and Complex Numbers</h5>
                             <div class="d-flex justify-content-evenly border-top pt-1">
-                                <p>2 Hours</p>
-                                <p>6 Months</p>
-                                <p>12 Modules</p>
+                                <small>2 Hours</small>
+                                <small>6 Months</small>
+                                <small>12 Modules</small>
                             </div>
                         </div>
                     </div>
@@ -359,6 +360,22 @@
                 el: ".swiper-pagination2",
                 clickable: true,
             },
+            autoplay: {
+                delay: 1000,
+            },
+            loop: true,
+            breakpoints: {
+                // when window width is <= 499px
+                499: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 50
+                },
+                // when window width is <= 999px
+                999: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 50
+                }
+            }
         });
 
         var swiper2 = new Swiper(".mySwiper2", {
@@ -377,6 +394,9 @@
             loop: true,
             pagination: {
                 el: ".swiper-pagination1",
+            },
+            autoplay: {
+                delay: 1000,
             },
         });
     </script>

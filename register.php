@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
                   <div class="card-body  mx-md-4 ">
 
                     <div class="text-center mb-2">
-                      <img src="image/logo.png" style="width: 100px;" alt="logo">
+                      <img src="assets/images/logo.png" style="width: 100px;" alt="logo">
                       <h3 class="mt-1 mb-4 pb-1" style="font-weight: bold;">WELCOME</h3>
                     </div>
 
