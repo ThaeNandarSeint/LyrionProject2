@@ -1,13 +1,34 @@
 <?php
+
+include "database/connection.php";
+
 session_start();
 // $message = !isset($_SESSION['email']);
 if (isset($_POST['submit'])) {
   $email = $_POST['email'];
   $password = $_POST['password'];
-  $s_email = $_SESSION['email'];
-  $s_password = $_SESSION['password'];
-  if ($email === $s_email && $password === $s_password) {
-    header('location:index.php');
+
+
+  if (connect()) {
+    $mysql = connect();
+    $reult = $mysql->query("SELECT * FROM users WHERE email='$email' AND password='$password' ");
+    if ($reult) {
+      // die(var_dump($reult->fetch_assoc()));
+      $user = $reult->fetch_assoc();
+      $s_name = $user['name'];
+      $s_email = $user['email'];
+      $s_password = $user['password'];
+      $_SESSION['name'] = $s_name;
+      $_SESSION['email'] = $s_email;
+      $_SESSION['password'] = $s_password;
+      if ($email === $s_email && $password === $s_password) {
+        header('location:index.php');
+      } else {
+        header('location: 404page.php');
+      }
+    } else {
+      header('location: 404page.php');
+    }
   } else {
     header('location: 404page.php');
   }

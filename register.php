@@ -1,14 +1,29 @@
 <?php
+
+include_once 'database/connection.php';
+
 session_start();
 if (isset($_POST['submit'])) {
   // echo "Hello Register";
   $email = $_POST['email'];
   $password = $_POST['password'];
   $name = $_POST['name'];
-  $_SESSION['name'] = $name;
-  $_SESSION['email'] = $email;
-  $_SESSION['password'] = $password;
-  header("location:login.php");
+  // $_SESSION['name'] = $name;
+  // $_SESSION['email'] = $email;
+  // $_SESSION['password'] = $password;
+
+  if (connect()) {
+    $mysql = connect();
+    $query = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+    $result = $mysql->query($query);
+    // die(var_dump($result));
+    if ($result) {
+      header("location:login.php");
+    } else {
+      header('location: register.php');
+    }
+    $mysql->close();
+  }
 }
 ?>
 

@@ -45,7 +45,8 @@
 
 .category {
     border-radius: 20px;
-    width: 25%;
+    width: 80%;
+    margin: 10px auto;
     height: 300px;
     color: white;
     display: flex;
@@ -93,9 +94,9 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
         flex: 100%;
-        max-width: 100%;
+        max-width: 50%;
     }
-}
+} */
