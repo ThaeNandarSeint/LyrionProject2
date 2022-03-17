@@ -7,7 +7,7 @@ session_start();
 if (isset($_POST['submit'])) {
   $email = $_POST['email'];
   $password = $_POST['password'];
-
+  $password = md5($password);
 
   if (connect()) {
     $mysql = connect();

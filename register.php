@@ -14,6 +14,7 @@ if (isset($_POST['submit'])) {
 
   if (connect()) {
     $mysql = connect();
+    $password = md5($password);
     $query = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
     $result = $mysql->query($query);
     // die(var_dump($result));
